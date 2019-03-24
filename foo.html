@@ -1,16 +1,16 @@
 <p><a href = "http://gerrymander.princeton.edu"><b>Gerrymandering analyzer from Prof. Sam Wang, Princeton University</b></a></p>
 <p></p>
 <p>
-Election to be analyzed:  U.S. House election of 2012 in ['PA ']</p>
+Election to be analyzed:  U.S. House election of 2016 in ['AZ']</p>
 <p>
-Districts to be sampled for fantasy delegations:  U.S. House results of 2012 in all 50 states</p>
+Districts to be sampled for fantasy delegations:  U.S. House 2012</p>
 <p></p>
 <p>
-The PA  delegation has 18 seats, 5 Democratic/other and 13 Republican.</p>
+The AZ delegation has 9 seats, 4 Democratic/other and 5 Republican.</p>
 <p>
 Uncontested races are assumed to have been won with 75% of the vote.</p>
 <p>
-The average Democratic share of the two-party total vote was 50.5% (raw)
+The average Democratic share of the two-party total vote was 48.4% (raw)
 .</p>
 <p></p>
 <p>
@@ -30,13 +30,13 @@ The following two tests provide a way of quantifying any such advantage in a set
 <p></p>
 <p>
 <b>First Test of Intents: Probing for lopsided win margins (the two-sample t-test):</b> 
-To test for a lopsided advantage, one can compare each partys winning margins and see if they are systematically different. 
+To test for a lopsided advantage, one can compare each party's winning margins and see if they are systematically different. 
 This is done using the <a href="http://vassarstats.net/textbook/ch11pt1.html">two-sample t-test</a>. 
 In this test, the party with the <i>smaller</i> set of winning margins has the advantage.</p>
 <p></p>
 <p>
-The difference between the two parties win margins meets established standards for statistical significance. 
-The probability that this difference in win margins (or larger) would have arisen by partisan-unbiased mechanisms alone is less than 0.001. 
+The difference between the two parties win margins does not meet established standards for statistical significance. 
+The probability that this difference or larger could have arisen by partisan-unbiased mechanisms is 0.48.
 </p>
 <p></p>
 <p>
@@ -49,9 +49,9 @@ The choice of test depends on whether the parties are closely matched (mean-medi
 When the parties are closely matched in overall strength, a partisan advantage will be evident in the form of a difference between the mean (a.k.a. average) vote share and the median vote share, calculated across all districts. </p>
 <p></p>
 <p>
-The mean-median difference is 7.6 % in a direction of advantage to the Republican Party. 
-The mean-median difference would reach this value in 0.8 % of situations by a partisan-unbiased process. 
-This difference is statistically significant (p<0.01), and in a case of suspected gerrymandering is extremely unlikely to have arisen by chance. 
+The mean-median difference is 5.3 % in a direction of advantage to the Republican Party. 
+The mean-median difference would reach this value in 13.1 % of situations by a partisan-unbiased process. 
+This difference is not statistically significant (p>0.05). 
 </p>
 <p></p>
 <p>
@@ -61,8 +61,8 @@ This difference is statistically significant (p<0.01), and in a case of suspecte
 When one party is dominant statewide, it gains an overall advantage by spreading its strength as uniformly as possible across districts. The statistical test to detect an abnormally uniform pattern is the <a href="http://www.itl.nist.gov/div898/handbook/eda/section3/eda358.htm">chi-square test</a>, in which the vote share of the majority party-controlled seats are compared with nationwide patterns.</p>
 <p></p>
 <p>
-The standard deviation of the Republican majoritys winning vote share is 3.9 %. 
-At a national level, the standard deviation is 7.6 %. 
-This difference is statistically significant (p<0.01), and in a case of suspected gerrymandering is extremely unlikely to have arisen by chance. 
+The standard deviation of the Republican majoritys winning vote share is 7.3 %. 
+At a national level, the standard deviation is nan %. 
+This difference is not statistically significant (p>0.05). 
 </p>
 <p>
